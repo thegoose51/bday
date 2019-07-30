@@ -1,4 +1,4 @@
-    
+
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
@@ -27,13 +27,7 @@ export default function Surprise() {
         <Typography color="textSecondary" component="p">
           I hope you have a wonderful Birthday!
         </Typography>
-        <Box className="pyro">
-          <Box className="before">
-            <Box className="after">
-            </Box>
-          </Box>
-        </Box>
-        <img src="/BirthdayGopher.png" alt="Birthday Gopher" style={{ width:'100%', height:'100%' }}></img>
+        <img src="/BirthdayGopher.png" alt="Birthday Gopher" style={{ width: '100%', height: '100%' }}></img>
       </Paper>
     </Box>
   );

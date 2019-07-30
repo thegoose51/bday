@@ -1,0 +1,10 @@
+/* TEAM */
+Software Engineer: Cody James May
+Site: https://jamesmay.xyz  
+Location: Massachussetts, USA
+
+/* SITE */
+Last update: 2019/07/30
+Standards: HTML5, CSS3, ES5
+Components: React, Material-UI
+Software: VSCode

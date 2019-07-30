@@ -25,9 +25,21 @@
     <title>Happy Birthday!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="author" href="humans.txt" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="pyro">
+      <div class="before"></div>
+      <div class="after"></div>
+    </div>
     <div id="root"></div>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('/service-worker.js')
+                 .then(function() { console.log("Service Worker Registered"); });
+      }
+      </script>
   </body>
 </html>
